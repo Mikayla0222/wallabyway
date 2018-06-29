@@ -31,8 +31,14 @@ p{
 }
 
 .lefttext{
-  /*margin-right: 800px;*/
-  float: left;
+  margin-right: 800px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.textright{
+  margin-left: 800px;
+  text-align: center;
 }
 
 .buttons{
@@ -61,5 +67,7 @@ a{
 
 
 .favimg{
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
