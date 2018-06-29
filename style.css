@@ -1,0 +1,65 @@
+body{
+  background-color: #68E0D0;
+  font-family: fantasy;
+  margin: 40px 40px 40px 40px;
+}
+
+h1{
+  color: Azure;
+  font-size: 75px;
+  text-align: center;
+  text-shadow: 10px 10px #152151;
+  margin: 40px 40px 40px 40px;
+}
+
+#left{
+  float: left;
+  margin-left: 60px;
+}
+
+#right{
+  float: right;
+  margin-right: 60px
+}
+
+p{
+  color: #152151;
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+  margin: 40px 40px 40px 40px;
+}
+
+.lefttext{
+  /*margin-right: 800px;*/
+  float: left;
+}
+
+.buttons{
+  color: #FF6969;
+}
+
+a{
+  color: SteelBlue;
+}
+
+.photo{
+  border: 10px solid transparent;
+  border-color: Azure;
+}
+
+.photo:hover{
+  border: 10px solid transparent;
+  border-color:  #152151;
+}
+
+#photos{
+  width:auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.favimg{
+  width: 50%;
+}
